@@ -32,8 +32,8 @@ public class GameFinishedScreen implements Screen {
 		
 		// Draw game over message
 		game.batch.begin();
-		game.font.draw(game.batch, "At laaaast is finished!!! ", 300, 200);
-		game.font.draw(game.batch, "Tap anywhere to exit ", 300, 150);
+		game.font.draw(game.batch, "You have gathered enough water!! Now you can irrigate your crops! ", 300, 200);
+		game.font.draw(game.batch, "Tap anywhere to exit", 300, 150);
 		game.batch.end();
 		
 		if (Gdx.input.isTouched()) {
